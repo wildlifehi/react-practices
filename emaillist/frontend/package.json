@@ -1,11 +1,11 @@
 {
-  "name": "ex01",
+  "name": "emaillist-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug": "npx webpack serve --progress --env",
-    "build": "npx webpack"
+    "start": "npx webpack serve --config config/webpack.config.js --progress",
+    "build": "npx webpack --config config/webpack.config.js"
   },
   "keywords": [],
   "author": "",
