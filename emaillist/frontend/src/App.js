@@ -1,14 +1,18 @@
-import React from 'react';
-import emails from './assets/json/data.json';
+import React from 'react'
+import RegisterForm from './RegisterForm';
+import SearchBar from './SearchBar';
+import Emaillist from './Emaillist';
+import emails from './assets/json/data.json'
+import './assets/scss/App.scss';
 
-function App() {
-    console.log(emails);
-    
-    return (
-        <div id='App'>
-            <h1>emaillist</h1>
-        </div>
-    );
+const App = () => {
+  return (
+    <div id={'App'}>
+      <RegisterForm />
+      <SearchBar />
+      <Emaillist emails={emails} />
+    </div>
+  )
 }
 
-export default App;
+export default App
