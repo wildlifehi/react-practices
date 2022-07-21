@@ -1,10 +1,10 @@
 {
-  "name": "ex02",
+  "name": "kanbanboard-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug": "npx webpack serve --config config/webpack.config.js --progress --env",
+    "start": "npx webpack serve --config config/webpack.config.js --progress",
     "build": "npx webpack --config config/webpack.config.js"
   },
   "keywords": [],
@@ -25,11 +25,6 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/free-regular-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
